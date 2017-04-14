@@ -26,7 +26,6 @@ Have a look at the plot. Do you see a trend in the dots?
 import pandas as pd
 import matplotlib.pyplot as plt
 
-movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
 
 plt.scatter(movies.runtime, movies.rating)
 plt.show()
@@ -42,9 +41,9 @@ test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
 
 --- type:NormalExercise lang:python xp:100 skills:1 key:16ecc34903
-## Plot the movies yourself
+## A la découverte de la librairie Pandas 
 
-A la découverte de la librairie Pandas 
+On va y aller pas à pas ;)
 
 A dataset of movies, `movies`, is available in the workspace.
 
@@ -63,8 +62,6 @@ A dataset of movies, `movies`, is available in the workspace.
 *** =pre_exercise_code
 ```{python}
 import pandas as pd
-movies = pd.read_csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
-
 import numpy as np
 ```
 
