@@ -44,7 +44,7 @@ test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 --- type:NormalExercise lang:python xp:100 skills:1 key:16ecc34903
 ## Plot the movies yourself
 
-Do you remember the plot of the last exercise? Let's make an even cooler plot!
+A la découverte de la librairie Pandas 
 
 A dataset of movies, `movies`, is available in the workspace.
 
